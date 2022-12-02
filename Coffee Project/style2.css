@@ -1,0 +1,413 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Glacial Indifference', sans-serif;
+
+}
+section
+{
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  padding: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(
+    to right,
+    #A4303F 0%,
+    #A4303F 50%,
+    #F9EDCC 50%,
+    #F9EDCC 100%
+
+  );
+    )#A4303F;
+  font-family: "Glacial Indifference";
+}
+header
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 98%;
+    padding:20px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+header .logo
+{
+  position: relative;
+  max-width: 50px;
+  margin-top: 15px;
+}
+header ul
+{
+  position: relative;
+  display: flex;
+}
+header ul li
+{
+  list-style: none;
+}
+header ul li a
+{
+  display: inline-block;
+  color: #A4303F;
+  font-weight: 400;
+  margin-left: 60px;
+  text-decoration: none;
+  border-radius: 16px;
+}
+header ul li a:hover
+{
+  padding: 6px 16px;
+  background: #F9EDCC;
+  color: #A4303F;
+  border: 2.2px solid #A4303F !important ;
+  border-radius: 20px;
+  text-decoration: none;
+  transition: all 0.3s ease 0s;
+  font-size: 1.15em;
+
+}
+.content1
+{
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 40px;
+}
+.content1 .textBox
+{
+  position: relative;
+  max-width: 500px;
+}
+.content1 .textBox h2
+{
+  color: #F9EDCC;
+  font-size: 3.5em;
+  line-height: 1.2em;
+  font-weight: 600;
+  position: absolute;
+  right: 225px;
+  top: 150px;
+}
+.content1 .branches h2
+{
+  color: #F9EDCC;
+  font-size: 2em;
+  position: relative;
+  bottom: 100px;
+  line-height: 1.2em;
+  font-weight: 700;
+}
+.content1 .branches .maps .map1
+{
+  border-radius: 20px;
+  position: relative;
+  max-width: 270px;
+}
+.maps .map2
+{
+  border-radius: 20px;
+  position: relative;
+  right: 0px;
+  max-width: 270px;
+  lwft:50px;
+}
+.content1 .branches .textBox h2
+{
+  color: #F9EDCC;
+  font-size: 3.5em;
+  line-height: 1.2em;
+  font-weight: 600;
+  position: absolute;
+}
+.content1 .textBox h2 .time
+{
+  color: #F9EDCC;
+  font-size: 0.4em;
+  font-weight: 600;
+  position: relative;
+  left: 100px;
+}
+.content1 .textBox h2 .coffee
+{
+  color: #F9EDCC;
+  font-size: 2em;
+  font-weight: 900;
+}
+.content1 .textBox h2 .break
+{
+  color: #F9EDCC;
+  font-size: 1.8em;
+  font-weight: 800;
+  font-family: "Miedinger W01 Bold", sans-serif;
+}
+.content1 .textBox h2 .period
+{
+  color: #F9EDCC;
+  font-size: 1.8em;
+  font-weight: 800;
+  font-family: "Glacial Indifference", sans-serif;
+}
+
+.content1 .imgBox
+{
+  width: 800px;
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 20px;
+  padding-right: 100px;
+  position: absolute;
+}
+.content1 .imgBox img
+{
+  max-width: 650px;
+  position: relative;
+  top: 0;
+  right: 200px;
+  bottom: 0;
+}
+.content2 h2
+{
+  color: #F9EDCC;
+  font-size: 4em;
+  font-weight: 600;
+  position: relative;
+  left: 100px;
+  line-height: 35px;
+}
+.content2 .textBox h2 .coffee
+{
+  color: #F9EDCC;
+  font-weight: 600;
+  position: relative;
+  left: 135px;
+  font-size: 0.6em;
+}
+.content2 .textBox h2 .coffee1
+{
+  color: #F9EDCC;
+  font-weight: 600;
+  position: relative;
+  left: 50px;
+  font-size: 0.6em;
+}
+.content2 .textBox h2 .coffee2
+{
+  color: #F9EDCC;
+  font-weight: 600;
+  position: relative;
+  left: 30px;
+  font-size: 0.6em;
+  top: 15px;
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.content2 .textBox h2 .coffee3
+{
+  color: #F9EDCC;
+  font-weight: 600;
+  position: relative;
+  left: 110px;
+  top: 15px;
+  font-size: 0.6em;
+}
+.imgd
+{
+  display: block;
+  margin-left: 100px;
+  margin-right: auto;
+}
+.imgd .ic
+{
+  display: block;
+  margin-left: 110px;
+  margin-right: auto;
+}
+.imgd .afg
+{
+  max-width: 400px;
+  display: block;
+  margin-left: 15px;
+  margin-right: auto;
+}
+.imgd img:hover
+{
+  transform: translateY(-10px);
+  transition: all 0.3s ease 0s;
+  filter: drop-shadow(0px 10px 10px #422B21);
+}
+.price
+{
+  width: 700px;
+  display: flex;
+  justify-content: flex-start;
+  padding-right: 100px;
+  margin-top: 0px;
+  padding-left: 30px;
+  text-align: justify;
+}
+.price .amt h3
+{
+  position: relative;
+  width: 100%;
+  display: flex;
+  right: 30px;
+  bottom: 30px;
+  font-size: 2em;
+  color:#A4303F;
+}
+.price .amt p
+{
+  position: relative;
+  width: 115%;
+  display: flex;
+  top: 0px;
+  font-size: 1em;
+  color:#333;
+  right: 30px;
+}
+.about
+{
+  width: 700px;
+  display: flex;
+  justify-content: flex-start;
+  padding-right: 70px;
+  margin-top: 0px;
+  padding-left: 30px;
+  text-align: justify;
+}
+.about .text h3
+{
+  position: relative;
+  width: 100%;
+  display: flex;
+  right: 70px;
+  bottom: 50px;
+  font-size: 2em;
+  color:#A4303F;
+}
+.about .text p
+{
+  position: relative;
+  width: 115%;
+  display: flex;
+  top: 5px;
+  font-size: 1em;
+  color:#333;
+  right: 30px;
+}
+.locs
+{
+  display: flex;
+  position: relative;
+  padding-right: 30px;
+  margin-top: 0px;
+  text-align: left;
+  margin-left: 30px;
+}
+.locs .loc1
+{
+  color: #F9EDCC;
+}
+.locs .loc2
+{
+  color: #A4303F;
+}
+.about .text h3
+{
+  position: relative;
+  width: 100%;
+  display: flex;
+  right: 70px;
+  bottom: 50px;
+  font-size: 2em;
+  color:#A4303F;
+}
+.about .text p
+{
+  position: relative;
+  width: 115%;
+  display: flex;
+  top: 5px;
+  font-size: 1em;
+  color:#333;
+  right: 30px;
+}
+footer{
+  background: #422B21;
+  height: auto;
+  width: 100vw;
+  font-family: "Glacial Indifference";
+  padding-top: 30px;
+  color: #F9EDCC;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  height: 1rem;
+}
+.footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  background:#422B21;
+}
+.footer h3{
+  font-size: 1.5rem;
+  font-weight: 550;
+  line-height: 2rem;
+}
+footer ul
+{
+  position: relative;
+  display: flex;
+  text-align: center;
+
+}
+footer ul li
+{
+  list-style: none;
+}
+footer ul li a
+{
+  line-height: 3em;
+  color: #F9EDCC;
+  text-decoration: none;
+  margin-left: 30px;
+  font-size: 15px;
+  position: relative;
+  right: 20px;
+}
+footer ul li a:hover
+{
+  line-height: 3em;
+  color: #fff;
+  text-decoration: none;
+  margin-left: 30px;
+  font-size: 15px;
+}
+.footer-bottom
+{
+  background:#422B21;
+  padding: 20px 0;
+  text-align: center;
+}
+.footer-bottom p
+{
+  font-size: 13px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+}

@@ -1,0 +1,225 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Glacial Indifference', sans-serif;
+
+}
+section
+{
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  padding: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(
+    to right,
+    #F9EDCC 0%,
+    #F9EDCC 50%,
+    #A4303F 50%,
+    #A4303F 100%
+  );
+    )#A4303F;
+  font-family: "Glacial Indifference";
+}
+header
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 98%;
+    padding:20px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+header .logo
+{
+  position: relative;
+  max-width: 50px;
+  margin-top: 15px;
+}
+header ul
+{
+  position: relative;
+  display: flex;
+}
+header ul li
+{
+  list-style: none;
+}
+header ul li a
+{
+  display: inline-block;
+  color: #fff;
+  font-weight: 400;
+  margin-left: 60px;
+  text-decoration: none;
+  border-radius: 16px;
+}
+header ul li a:hover
+{
+  padding: 6px 16px;
+  background: #A4303F;
+  color: #fff;
+  border: 2.2px solid #fff !important ;
+  border-radius: 20px;
+  text-decoration: none;
+  transition: all 0.3s ease 0s;
+  font-size: 1.15em;
+
+}
+.content
+{
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 40px;
+}
+.content .textBox
+{
+  position: relative;
+  max-width: 600px;
+}
+.content .textBox h2
+{
+  color: #A4303F;
+  font-size: 4em;
+  line-height: 1.2em;
+  font-weight: 700;
+}
+.content .textBox h2 .coffee
+{
+  color: #A4303F;
+  font-size: 2em;
+  font-weight: 900;
+}
+.content .textBox h2 .break
+{
+  color: #A4303F;
+  font-size: 1.8em;
+  font-weight: 800;
+  font-family: "Miedinger W01 Bold", sans-serif;
+}
+.content .textBox h2 .period
+{
+  color: #A4303F;
+  font-size: 1.8em;
+  font-weight: 800;
+  font-family: "Glacial Indifference", sans-serif;
+}
+.content .textBox p
+{
+  margin-top: 18px;
+  color:#A4303F;
+}
+.content .textBox a
+{
+  display: inline-block;
+  margin-top: 38px;
+  padding: 7px 17px;
+  color: #A4303F;
+  border: 2.2px solid #A4303F !important ;
+  border-radius: 20px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+.content .textBox a:hover
+{
+  padding: 7px 17px;
+  background: #A4303F;
+  color: #fff;
+  border: 2.2px solid #A4303F !important ;
+  border-radius: 20px;
+  text-decoration: none;
+  transition: all 0.3s ease 0s;
+}
+.content .imgBox
+{
+  width: 700px;
+  display: flex;
+  justify-content: flex-start;
+  padding-right: 60px;
+  margin-top: 0px;
+  padding-left: 50px;
+}
+.content .imgBox img
+{
+  max-width: 640px;
+}
+
+footer{
+  background: #422B21;
+  height: auto;
+  width: 100vw;
+  font-family: "Glacial Indifference";
+  padding-top: 30px;
+  color: #F9EDCC;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  height: 1rem;
+}
+.footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  background:#422B21;
+}
+.footer h3{
+  font-size: 1.5rem;
+  font-weight: 550;
+  line-height: 2rem;
+}
+footer ul
+{
+  position: relative;
+  display: flex;
+  text-align: center;
+
+}
+footer ul li
+{
+  list-style: none;
+}
+footer ul li a
+{
+  line-height: 3em;
+  color: #F9EDCC;
+  text-decoration: none;
+  margin-left: 30px;
+  font-size: 15px;
+  position: relative;
+  right: 20px;
+}
+footer ul li a:hover
+{
+  line-height: 3em;
+  color: #fff;
+  text-decoration: none;
+  margin-left: 30px;
+  font-size: 15px;
+}
+.footer-bottom
+{
+  background:#422B21;
+  padding: 20px 0;
+  text-align: center;
+}
+.footer-bottom p
+{
+  font-size: 13px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+}

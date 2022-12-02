@@ -1,0 +1,201 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Glacial Indifference', sans-serif;
+
+}
+section
+{
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  padding: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(
+    to top,
+    #F9EDCC 0%,
+    #F9EDCC 41%,
+    #A4303F 41%,
+    #A4303F 100%
+  );
+    )#A4303F;
+  font-family: "Glacial Indifference";
+}
+header
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 98%;
+    padding:20px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+header .logo
+{
+  position: relative;
+  max-width: 50px;
+  margin-top: 15px;
+}
+header ul
+{
+  position: relative;
+  display: flex;
+}
+header ul li
+{
+  list-style: none;
+}
+header ul li a
+{
+  display: inline-block;
+  color: #fff;
+  font-weight: 400;
+  margin-left: 60px;
+  text-decoration: none;
+  border-radius: 16px;
+}
+header ul li a:hover
+{
+  padding: 6px 16px;
+  background: #A4303F;
+  color: #fff;
+  border: 2.2px solid #fff !important ;
+  border-radius: 20px;
+  text-decoration: none;
+  transition: all 0.3s ease 0s;
+  font-size: 1.15em;
+
+}
+table
+{
+  border-collapse: separate;
+  border-spacing: 60px 5px;
+}
+.table .prod
+{
+  max-width: 200px;
+  text-align: center;
+}
+.table .prod th
+{
+  margin-left: 60px;
+  position: center;
+  font-size: 17px;
+}
+.table .prod th a
+{
+  display: inline-block;
+  color: #A4303F;
+  font-weight: 500px;
+  text-decoration: none;
+  border-radius: 16px;
+}
+.table .prod th a:hover
+{
+  transform: translateY(-2px);
+  transition: all 0.3s ease 0s;
+}
+.table .prod img
+{
+  max-width: 225px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+.table .prod img:hover
+{
+  transform: translateY(-10px);
+  transition: all 0.3s ease 0s;
+  filter: drop-shadow(6px 0px 8px #64222B);
+}
+.products .textBox
+{
+  position: relative;
+  max-width: 600px;
+  left: 40px;
+  bottom: 3px;
+}
+.products .textBox h2
+{
+  color: #F9EDCC;
+  font-size: 2em;
+  position: relative;
+  bottom: 100px;
+  line-height: 1.2em;
+  font-weight: 700;
+}
+
+footer{
+  background: #422B21;
+  height: auto;
+  width: 100vw;
+  font-family: "Glacial Indifference";
+  padding-top: 30px;
+  color: #F9EDCC;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  height: 1rem;
+}
+.footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  background:#422B21;
+}
+.footer h3{
+  font-size: 1.5rem;
+  font-weight: 550;
+  line-height: 2rem;
+}
+footer ul
+{
+  position: relative;
+  display: flex;
+  text-align: center;
+
+}
+footer ul li
+{
+  list-style: none;
+}
+footer ul li a
+{
+  line-height: 3em;
+  color: #F9EDCC;
+  text-decoration: none;
+  margin-left: 30px;
+  font-size: 15px;
+  position: relative;
+  right: 20px;
+}
+footer ul li a:hover
+{
+  line-height: 3em;
+  color: #fff;
+  text-decoration: none;
+  margin-left: 30px;
+  font-size: 15px;
+}
+.footer-bottom
+{
+  background:#422B21;
+  padding: 20px 0;
+  text-align: center;
+}
+.footer-bottom p
+{
+  font-size: 13px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+}
